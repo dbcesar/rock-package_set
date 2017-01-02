@@ -28,8 +28,8 @@ version_control:
         update_cached_file: false
 
     - control/visp:
-        type: svn
-        url: svn://scm.gforge.inria.fr/svnroot/visp/trunk/ViSP 
+        github: lagadic/visp
+        tag: 3.0.0
         patches:
             - $AUTOPROJ_SOURCE_DIR/patches/visp.patch
 
